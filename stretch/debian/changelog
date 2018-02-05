@@ -1,0 +1,5 @@
+icinga2-templates (0.0.0-1) icinga-stretch; urgency=medium
+
+  * Initial package
+
+ -- Markus Frosch <markus.frosch@icinga.com>  Mon, 05 Feb 2018 16:11:08 +0100

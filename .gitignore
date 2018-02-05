@@ -1,0 +1,18 @@
+# Editors
+*~
+.*.sw[op]
+/.idea/
+
+# Build fragments
+*.changes
+*.buildinfo
+*.dsc
+*.deb
+
+# Tarball
+*.tar
+*.tar.*
+
+# Fragments from snapshots
+*.version
+*.git/

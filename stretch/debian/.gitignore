@@ -1,0 +1,5 @@
+files
+*.debhelper.log
+*substvars
+icinga2-templates/
+.*.sw[op]

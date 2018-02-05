@@ -1,0 +1,18 @@
+Source: icinga2-templates
+Section: admin
+Priority: optional
+Maintainer: Icinga Development Team <info@icinga.com>
+Uploaders:
+ Markus Frosch <markus.frosch@icinga.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://www.icinga.com
+#Vcs-Browser: https://anonscm.debian.org/cgit/pkg-nagios/pkg-icinga2-templates.git
+#Vcs-Git: https://anonscm.debian.org/git/pkg-nagios/pkg-icinga2-templates.git
+
+Package: icinga2-templates
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: icinga2-common (<< 2.9.0)
+Breaks: icinga2-common (<< 2.9.0)
+Description: Icinga Template Library for Icinga 2
