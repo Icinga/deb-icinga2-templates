@@ -13,6 +13,7 @@ Homepage: https://www.icinga.com
 Package: icinga2-templates
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: icinga2-common (<< 2.9.0)
-Breaks: icinga2-common (<< 2.9.0)
+# TODO: re-enable before offically releasing ITL package
+#Replaces: icinga2-common (<< 2.9.0)
+#Breaks: icinga2-common (<< 2.9.0)
 Description: Icinga Template Library for Icinga 2
